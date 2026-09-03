@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubham Mehta — dev workbench</title>
+<meta name="description" content="Portfolio of Shubham Mehta, a Python, Java and web developer based in Mumbai, India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">Shubham<span class="brand-dot">.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">about</a>
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">say hi</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="hero-hand">hi, I'm</p>
+        <h1>Shubham Mehta</h1>
+        <p class="hero-typed"><span id="typedRole"></span><span class="caret">|</span></p>
+        <p class="hero-pitch">
+          I build things with Python, Java, and whatever the web throws at me.
+          Five side projects deep, one bug at a time.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">see what I've built</a>
+          <a href="#contact" class="btn btn-outline">say hi</a>
+        </div>
+      </div>
+
+      <div class="hero-figure">
+        <div class="polaroid">
+          <div class="tape tape-left" aria-hidden="true"></div>
+          <div class="tape tape-right" aria-hidden="true"></div>
+          <div class="polaroid-photo">
+            <img src="https://shubhammehta15.github.io/assets/profile.jpg" alt="Shubham Mehta" id="profileImg">
+            <div class="avatar-fallback" id="avatarFallback">SM</div>
+          </div>
+          <p class="polaroid-caption">probably debugging something</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div class="about-copy">
+        <h2>about me<svg class="underline" viewBox="0 0 220 14" aria-hidden="true"><path d="M2 10 C 40 2, 80 2, 110 7 S 180 12, 218 5" /></svg></h2>
+        <p>
+          I'm an IT professional with a strong foundation in web development
+          and a genuine interest in where technology is headed next. Most of
+          my hands-on experience is in building responsive, user-focused
+          websites with HTML, CSS, and JavaScript, alongside Python and Java
+          for logic-driven applications and small automations.
+        </p>
+        <p>
+          I pick up new tools and platforms quickly, and I try to pair that
+          with clear communication — whether that's a client feedback
+          session on a website build, or walking a non-technical user
+          through a software issue.
+        </p>
+      </div>
+
+      <div class="now-card">
+        <p class="now-title">right now</p>
+        <ul class="now-list">
+          <li>fixing tax-software bugs by day at EChartered System</li>
+          <li>building Ironworks Gym's website on the side</li>
+          <li>running on chai and Stack Overflow tabs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="wrap">
+      <h2>things I work with<svg class="underline" viewBox="0 0 220 14" aria-hidden="true"><path d="M2 10 C 40 2, 80 2, 110 7 S 180 12, 218 5" /></svg></h2>
+      <ul class="chip-row">
+        <li class="chip">Python</li>
+        <li class="chip">Java</li>
+        <li class="chip">JavaScript</li>
+        <li class="chip">HTML &amp; CSS</li>
+        <li class="chip">Git &amp; GitHub</li>
+        <li class="chip">Java Swing</li>
+        <li class="chip">Responsive Design</li>
+        <li class="chip">UX Optimization</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="wrap">
+      <h2>where I've worked<svg class="underline" viewBox="0 0 220 14" aria-hidden="true"><path d="M2 10 C 40 2, 80 2, 110 7 S 180 12, 218 5" /></svg></h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-date">April 2026 → now</div>
+          <div class="timeline-content">
+            <h3>Co-Founder &amp; Web Designer/Developer</h3>
+            <p class="timeline-org">GM Teach Solutions, Mumbai (part-time)</p>
+            <ul>
+              <li>Co-founded the web design practice and own client projects end-to-end.</li>
+              <li>Built a responsive business website that grew organic traffic by 50% in three months.</li>
+              <li>Redesigned navigation and UI, cutting bounce rate by 30% and load times by 20%.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date">June 2026 → now</div>
+          <div class="timeline-content">
+            <h3>Technical Support Executive</h3>
+            <p class="timeline-org">EChartered System Pvt. Ltd., Mumbai</p>
+            <ul>
+              <li>Support clients on taxation software — installs, configuration, filing and compliance modules.</li>
+              <li>Reproduce and document bugs, then work with developers to verify fixes before release.</li>
+              <li>Maintain a shared knowledge base that's cut down repeat tickets.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="projects">
+    <div class="wrap">
+      <h2>stuff I've built<svg class="underline" viewBox="0 0 220 14" aria-hidden="true"><path d="M2 10 C 40 2, 80 2, 110 7 S 180 12, 218 5" /></svg></h2>
+      <p class="section-lede">five self-directed builds, all with real code behind them</p>
+
+      <div class="pin-grid">
+        <article class="pin-card">
+          <div class="pin" aria-hidden="true"></div>
+          <h3>Ironworks — Gym Website</h3>
+          <p>A responsive site for a fitness gym, built with HTML, CSS, and JavaScript. Hero, programs, trainer profiles, pricing, and a working contact form.</p>
+          <p class="pin-links">
+            <a href="https://shubhammehta15.github.io/ironworks-gym-website" target="_blank" rel="noopener">live demo</a>
+            <a href="https://github.com/Shubhammehta15/ironworks-gym-website" target="_blank" rel="noopener">source</a>
+          </p>
+        </article>
+
+        <article class="pin-card">
+          <div class="pin" aria-hidden="true"></div>
+          <h3>2048</h3>
+          <p>A console recreation of the sliding-tile puzzle in pure Python — full move, merge, scoring, and win/lose logic.</p>
+          <p class="pin-links">
+            <a href="https://github.com/Shubhammehta15/Python-2048-Game" target="_blank" rel="noopener">source</a>
+          </p>
+        </article>
+
+        <article class="pin-card">
+          <div class="pin" aria-hidden="true"></div>
+          <h3>Road Rush — Racing Game</h3>
+          <p>A top-down, GUI car-dodging game in Java Swing, with keyboard controls and difficulty that ramps up the longer you survive.</p>
+          <p class="pin-links">
+            <a href="https://github.com/Shubhammehta15/java-racing-game" target="_blank" rel="noopener">source</a>
+          </p>
+        </article>
+
+        <article class="pin-card">
+          <div class="pin" aria-hidden="true"></div>
+          <h3>Expense Tracker</h3>
+          <p>A Java Swing desktop app for logging categorized expenses, with running totals and automatic local saving.</p>
+          <p class="pin-links">
+            <a href="https://github.com/Shubhammehta15/java-expense-tracker" target="_blank" rel="noopener">source</a>
+          </p>
+        </article>
+
+        <article class="pin-card">
+          <div class="pin" aria-hidden="true"></div>
+          <h3>Student Management System</h3>
+          <p>A CRUD desktop app in Java Swing to add, search, update, and delete student records, with local persistence.</p>
+          <p class="pin-links">
+            <a href="https://github.com/Shubhammehta15/Java-Student-Management-System" target="_blank" rel="noopener">source</a>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="learning">
+    <div class="wrap two-col">
+      <div>
+        <h2>certifications<svg class="underline" viewBox="0 0 220 14" aria-hidden="true"><path d="M2 10 C 40 2, 80 2, 110 7 S 180 12, 218 5" /></svg></h2>
+        <ul class="check-list">
+          <li>Web Design &amp; Development (KES Shroff College, 2023–2024)</li>
+          <li>Arduino Programming (KES Shroff College, 2023–2024)</li>
+          <li>Ethical Hacking (KES Shroff College, 2024–2025)</li>
+          <li>Generative AI — ChatGPT &amp; Prompt Engineering (KES Shroff College, 2024–2025)</li>
+        </ul>
+      </div>
+      <div>
+        <h2>education<svg class="underline" viewBox="0 0 220 14" aria-hidden="true"><path d="M2 10 C 40 2, 80 2, 110 7 S 180 12, 218 5" /></svg></h2>
+        <ul class="check-list">
+          <li><strong>KES Shroff College, Mumbai</strong><br>BSc IT, completed 2026</li>
+          <li><strong>Reen Mehta Jr. College, Mumbai</strong><br>HSC, 2023</li>
+          <li><strong>Shanti Nagar High School, Mumbai</strong><br>SSC, 2021</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-copy">
+        <h2>say hi<svg class="underline" viewBox="0 0 220 14" aria-hidden="true"><path d="M2 10 C 40 2, 80 2, 110 7 S 180 12, 218 5" /></svg></h2>
+        <p>Open to new opportunities in web, Python, and Java development. Email is fastest, or drop a note here.</p>
+        <p class="contact-email"><a href="mailto:mehtashubham704@gmail.com">mehtashubham704@gmail.com</a></p>
+        <svg class="doodle-arrow" viewBox="0 0 140 90" aria-hidden="true">
+          <path d="M6 10 C 40 5, 70 40, 120 55" />
+          <path d="M100 48 L 122 57 L 108 74" />
+        </svg>
+      </div>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">send it</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="signature">— Shubham</p>
+    <p class="footer-note">Built by hand, bugs occasionally included. Code's on <a href="https://github.com/Shubhammehta15" target="_blank" rel="noopener">GitHub</a>.</p>
+  </div>
+</footer>
+
+<!-- Chatbot widget -->
+<div class="chatbot" id="chatbot">
+  <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chat with ShubBot" aria-expanded="false">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 12c0-3 2-5 5-5h22c3 0 5 2 5 5v14c0 3-2 5-5 5H20l-9 8v-8h-3c-3 0-5-2-5-5V12z"/></svg>
+  </button>
+  <div class="chatbot-panel" id="chatbotPanel">
+    <div class="chatbot-header">
+      <span>ShubBot <span class="chatbot-status">● online-ish</span></span>
+      <button class="chatbot-close" id="chatbotClose" aria-label="Close chat">×</button>
+    </div>
+    <div class="chatbot-messages" id="chatbotMessages"></div>
+    <div class="chatbot-chips" id="chatbotChips">
+      <button data-q="skills">skills</button>
+      <button data-q="projects">projects</button>
+      <button data-q="experience">experience</button>
+      <button data-q="contact">contact</button>
+    </div>
+    <form class="chatbot-input-row" id="chatbotForm">
+      <input type="text" id="chatbotInput" placeholder="ask me something…" autocomplete="off">
+      <button type="submit" aria-label="Send">➤</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
